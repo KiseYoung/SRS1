@@ -1,0 +1,18 @@
+﻿<Window x:Class="PZ1_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PZ1_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_Zd1" Content="Задача 1" HorizontalAlignment="Left" Margin="133,46,0,0" VerticalAlignment="Top" Click="btn_Zd1_Click" Width="130" Height="42"/>
+        <Button x:Name="btn_Zd2" Content="Задача 2" HorizontalAlignment="Left" Margin="133,119,0,0" VerticalAlignment="Top" Click="btn_Zd2_Click" Width="130" Height="42"/>
+        <Button x:Name="btn_Zd3" Content="Задача 3" HorizontalAlignment="Left" Margin="300,46,0,0" VerticalAlignment="Top" Width="124" Click="btn_Zd3_Click" Height="42"/>
+        <Button x:Name="btn_Zd4" Content="Задача 4" HorizontalAlignment="Left" Margin="299,119,0,0" VerticalAlignment="Top" Width="125" Click="btn_Zd4_Click" Height="42"/>
+        <Button x:Name="btn_Zd5" Content="Задача 5" HorizontalAlignment="Left" Margin="470,47,0,0" VerticalAlignment="Top" Width="125" Click="btn_Zd5_Click" Height="41"/>
+        <Label x:Name="lb_Var" Content="Вариант №4" HorizontalAlignment="Center" VerticalAlignment="Top" Width="106"/>
+
+    </Grid>
+</Window>
